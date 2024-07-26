@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\core\\GerenciadorTarefas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\model\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\model\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\model\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\model\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,12 +50,25 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\Usuario.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Model\\Usuario.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\Usuario.cs",
+              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Model\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T18:52:58.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserLogin.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\UserLogin.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Model\\UserLogin.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\UserLogin.cs",
-              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Model\\UserLogin.cs",
+              "Title": "UserLoginModel.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\UserLoginModel.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Model\\UserLoginModel.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\UserLoginModel.cs",
+              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Model\\UserLoginModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T18:45:26.057Z",
@@ -59,13 +76,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\UserModel.cs",
               "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Model\\UserModel.cs",
               "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\UserModel.cs",
               "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Model\\UserModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T18:45:11.629Z",
               "EditorCaption": ""

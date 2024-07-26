@@ -1,6 +1,6 @@
 ﻿namespace GerenciadorTarefas.WebAPI.Model
 {
-    public class UserLogin
+    public class UserLoginModel
     {
         public string Email { get; set; }
         public string Password { get; set; }
