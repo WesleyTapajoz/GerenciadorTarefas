@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("GerenciadorTarefas.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47f5d5928f60b915b3281fe02ab66134cabce8cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa367b638189cff224b0868773b3d3e997990346")]
 [assembly: System.Reflection.AssemblyProductAttribute("GerenciadorTarefas.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GerenciadorTarefas.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

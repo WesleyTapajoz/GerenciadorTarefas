@@ -1,3 +1,7 @@
+using GerenciadorTarefas.Repository.Data;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,7 +9,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddDbContext<DataContext>(options => options.UseInMemoryDatabase("AppDb"));
+builder.Services.AddAuthorization();
+builder.Services.AddIdentityApiEndpoints<IdentityUser>(opt =>
+{
+    opt.Password.RequiredLength = 8;
+    opt.User.RequireUniqueEmail = true;
+    opt.Password.RequireNonAlphanumeric = false;
+    opt.SignIn.RequireConfirmedEmail = true;
+})
+        .AddDefaultUI()
+        .AddEntityFrameworkStores<DataContext>();
 var app = builder.Build();
 //Configura Swagger
 if (app.Environment.IsDevelopment())
@@ -26,7 +40,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.MapIdentityApi<IdentityUser>();
 app.MapControllers();
 
 app.Run();

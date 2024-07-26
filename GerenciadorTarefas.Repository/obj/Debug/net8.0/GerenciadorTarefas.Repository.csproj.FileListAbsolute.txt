@@ -1,0 +1,13 @@
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\bin\Debug\net8.0\GerenciadorTarefas.Repository.deps.json
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\bin\Debug\net8.0\GerenciadorTarefas.Repository.dll
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\bin\Debug\net8.0\GerenciadorTarefas.Repository.pdb
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\GerenciadorTarefas.Repository.csproj.AssemblyReference.cache
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\GerenciadorTarefas.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\GerenciadorTarefas.Repository.AssemblyInfoInputs.cache
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\GerenciadorTarefas.Repository.AssemblyInfo.cs
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\GerenciadorTarefas.Repository.csproj.CoreCompileInputs.cache
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\GerenciadorTarefas.Repository.sourcelink.json
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\GerenciadorTarefas.Repository.dll
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\refint\GerenciadorTarefas.Repository.dll
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\GerenciadorTarefas.Repository.pdb
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\ref\GerenciadorTarefas.Repository.dll

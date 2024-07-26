@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("GerenciadorTarefas.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08ddbdbea49750bc4f4959ead8606efe08ed997c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa367b638189cff224b0868773b3d3e997990346")]
 [assembly: System.Reflection.AssemblyProductAttribute("GerenciadorTarefas.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GerenciadorTarefas.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
