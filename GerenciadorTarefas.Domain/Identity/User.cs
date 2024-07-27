@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using GerenciadorTarefas.Domain.Entity;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,8 @@ namespace GerenciadorTarefas.Domain.Identity
         public string Telefone { get; set; }
         public bool Ativo { get; set; }
         public List<UserRole> UserRoles { get; set; }
+        public virtual List<Tarefa> Tarefas { get; set; }
+
 
     }
 }

@@ -11,3 +11,8 @@ C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\Gerenc
 C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\refint\GerenciadorTarefas.Repository.dll
 C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\GerenciadorTarefas.Repository.pdb
 C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\ref\GerenciadorTarefas.Repository.dll
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\bin\Debug\net8.0\GerenciadorTarefas.Domain.dll
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\bin\Debug\net8.0\GerenciadorTarefas.Domain.pdb
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\Gerencia.D8B7AA76.Up2Date
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\bin\Debug\net8.0\GerenciadorTarefas.Repository.runtimeconfig.json
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Repository\obj\Debug\net8.0\GerenciadorTarefas.Repository.genruntimeconfig.cache

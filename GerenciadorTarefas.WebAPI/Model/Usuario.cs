@@ -8,6 +8,6 @@
         public string CPF { get; set; }
         public string Telefone { get; set; }
         public string Email { get; set; }
-        public virtual List<Tarefa> Tarefas { get; set; }
+        public virtual List<TarefaModel> Tarefas { get; set; }
     }
 }

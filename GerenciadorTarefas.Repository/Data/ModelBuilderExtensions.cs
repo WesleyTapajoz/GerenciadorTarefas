@@ -18,7 +18,7 @@ namespace GerenciadorTarefas.Repository.Data
               new Tarefa
               {
                   TarefaId = 1,
-                  UsuarioID = 1,
+                  Id = 1,
                   Data = DateTime.Now,
                   Descricao = "Desenvolver gerenciador de tarefa - para provider-it",
                   Status = 1,

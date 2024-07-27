@@ -1,0 +1,13 @@
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Domain\bin\Debug\net8.0\GerenciadorTarefas.Domain.deps.json
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Domain\bin\Debug\net8.0\GerenciadorTarefas.Domain.dll
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Domain\bin\Debug\net8.0\GerenciadorTarefas.Domain.pdb
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.csproj.AssemblyReference.cache
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.AssemblyInfoInputs.cache
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.AssemblyInfo.cs
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.csproj.CoreCompileInputs.cache
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.sourcelink.json
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.dll
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\refint\GerenciadorTarefas.Domain.dll
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.pdb
+C:\core\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\ref\GerenciadorTarefas.Domain.dll

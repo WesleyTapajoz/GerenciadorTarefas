@@ -1,12 +1,14 @@
 ﻿using GerenciadorTarefas.Domain.Identity;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace GerenciadorTarefas.Domain.Entity
 {
+    [Table("Tarefa")]
     public class Tarefa
     {
         public int TarefaId { get; set; }
@@ -14,7 +16,8 @@ namespace GerenciadorTarefas.Domain.Entity
         public string Descricao { get; set; }
         public DateTime Data { get; set; }
         public int Status { get; set; }
-        public User Usuario { get; set; }
-        public int UsuarioID { get; set; }
+        public int Id { get; set; }
+        public virtual User User { get; set; }
+
     }
 }
