@@ -34,12 +34,8 @@ namespace GerenciadorTarefas.Repository.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false),
                     FullName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Endereco = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CPF = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Telefone = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Ativo = table.Column<bool>(type: "bit", nullable: false),
-                    UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedEmail = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -190,19 +186,19 @@ namespace GerenciadorTarefas.Repository.Migrations
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
-                columns: new[] { "Id", "AccessFailedCount", "Ativo", "CPF", "ConcurrencyStamp", "Email", "EmailConfirmed", "Endereco", "FullName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "Telefone", "TwoFactorEnabled", "UserName" },
+                columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FullName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { 1, 0, true, "019.266.931-16", "b4b9359b-6098-4752-8786-406a57a3abdd", "shakespeare@outlook.com", false, "Stratford-upon-Avon, Reino Unido", "shakespeare", false, null, null, null, null, null, false, null, "65 99999-9999", false, "Shakespeare" },
-                    { 2, 0, true, "019.266.931-17", "1c5df835-a933-4ad1-8d82-c76426d414a3", "machadosssis@outlook.com", false, "Rio de Janeiro, Brasil", "Machado de Assis", false, null, null, null, null, null, false, null, "65 99999-9999", false, "machadoassis" },
-                    { 3, 0, true, "019.266.931-17", "3d7fa3ce-067f-46e9-9172-c97426f1613c", "wesley@outlook.com", false, "Cuiabá, Brasil", "Wesley Tapajoz", false, null, null, null, null, null, false, null, "65 99999-9999", false, "wesley" },
-                    { 4, 0, true, "019.266.931-17", "98211451-7004-4f6b-8b99-d7e429a85de0", "tapajoz@outlook.com", false, "Várzea Grande, Brasil", "Wesley Douglas", false, null, null, null, null, null, false, null, "65 99999-9999", false, "douglas" }
+                    { 1, 0, "a9ca84dc-458c-48a6-a55d-1ae196cb5ef9", "shakespeare@outlook.com", false, "shakespeare", false, null, null, null, null, null, false, null, false, "Shakespeare" },
+                    { 2, 0, "12c485ad-c135-4831-bcce-76a0bd601ccf", "machadosssis@outlook.com", false, "Machado de Assis", false, null, null, null, null, null, false, null, false, "machadoassis" },
+                    { 3, 0, "fd35bab2-b475-43ac-b4eb-5f120754e314", "wesley@outlook.com", false, "Wesley Tapajoz", false, null, null, null, null, null, false, null, false, "wesley" },
+                    { 4, 0, "634dceb3-ba21-439f-92d0-bce466ce1626", "douglas@outlook.com", false, "Wesley Douglas", false, null, null, null, null, null, false, null, false, "douglas" }
                 });
 
             migrationBuilder.InsertData(
                 table: "Tarefa",
                 columns: new[] { "TarefaId", "Data", "Descricao", "Id", "Status", "Titulo" },
-                values: new object[] { 1, new DateTime(2024, 7, 26, 20, 16, 35, 313, DateTimeKind.Local).AddTicks(5449), "Desenvolver gerenciador de tarefa - para provider-it", 1, 1, "Desenvolver gerenciador de tarefa" });
+                values: new object[] { 1, new DateTime(2024, 7, 27, 0, 38, 41, 512, DateTimeKind.Local).AddTicks(9255), "Desenvolver gerenciador de tarefa - para provider-it", 1, 1, "Desenvolver gerenciador de tarefa" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

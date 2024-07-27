@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using GerenciadorTarefas.Domain.Entity;
 using GerenciadorTarefas.Domain.Identity;
 using GerenciadorTarefas.WebAPI.Model;
 
@@ -18,7 +19,12 @@ namespace GerenciadorTarefas.WebAPI.Profiles
             CreateMap<User, UserModel>()
                    .ReverseMap();
 
-            CreateMap<TarefaModel, TarefaModel>()
+            CreateMap<Tarefa, TarefaModel>()
+                .ForMember(dest => dest.Id, opt =>
+                {
+                    opt.MapFrom(src => src.Id);
+                })
+            
                .ReverseMap();
         }
     }

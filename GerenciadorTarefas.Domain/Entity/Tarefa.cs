@@ -17,7 +17,7 @@ namespace GerenciadorTarefas.Domain.Entity
         public DateTime Data { get; set; }
         public int Status { get; set; }
         public int Id { get; set; }
-        public virtual User User { get; set; }
+        public User User { get; set; }
 
     }
 }

@@ -23,8 +23,4 @@
     <ProjectReference Include="..\GerenciadorTarefas.Domain\GerenciadorTarefas.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Interface\" />
-  </ItemGroup>
-
 </Project>

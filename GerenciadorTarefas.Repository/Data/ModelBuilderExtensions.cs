@@ -22,55 +22,40 @@ namespace GerenciadorTarefas.Repository.Data
                   Data = DateTime.Now,
                   Descricao = "Desenvolver gerenciador de tarefa - para provider-it",
                   Status = 1,
-                  Titulo = "Desenvolver gerenciador de tarefa"
+                  Titulo = "Desenvolver gerenciador de tarefa",
+                  
               });
             modelBuilder.Entity<User>().HasData(
                  new User
                  {
                      Id = 1,
-                     CPF = "019.266.931-16",
                      UserName = "Shakespeare",
-                     Endereco = "Stratford-upon-Avon, Reino Unido",
+                     FullName = "shakespeare",
                      Email = "shakespeare@outlook.com",
-                     Ativo = true,
-                     Telefone = "65 99999-9999",
-                     FullName = "shakespeare"
+
                  },
                  new User
                  {
                      Id = 2,
-                     CPF = "019.266.931-17",
                      UserName = "machadoassis",
-                     Endereco = "Rio de Janeiro, Brasil",
                      Email = "machadosssis@outlook.com",
-                     Ativo = true,
-                     Telefone = "65 99999-9999",
                      FullName = "Machado de Assis"
 
                  },
                  new User
                  {
                      Id = 3,
-                     CPF = "019.266.931-17",
-                     UserName = "wesley",
-                     Endereco = "Cuiabá, Brasil",
+                     UserName = "wesley", 
                      Email = "wesley@outlook.com",
-                     Ativo = true,
-                     Telefone = "65 99999-9999",
                      FullName = "Wesley Tapajoz"
 
                  },
                  new User
                  {
                      Id = 4,
-                     CPF = "019.266.931-17",
                      UserName = "douglas",
-                     Endereco = "Várzea Grande, Brasil",
-                     Email = "tapajoz@outlook.com",
-                     Ativo = true,
-                     Telefone = "65 99999-9999",
+                     Email = "douglas@outlook.com",
                      FullName = "Wesley Douglas"
-
                  }
              );
         }

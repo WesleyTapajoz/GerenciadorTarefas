@@ -1,4 +1,6 @@
-﻿namespace GerenciadorTarefas.WebAPI.Model
+﻿using GerenciadorTarefas.Domain.Identity;
+
+namespace GerenciadorTarefas.WebAPI.Model
 {
     public class TarefaModel
     {
@@ -7,7 +9,7 @@
         public string Descricao { get; set; }
         public DateTime Data { get; set; }
         public int Status { get; set; }
-        public Usuario Usuario { get; set; }
-        public int UsuarioID { get; set; }
+        public int Id { get; set; }
+        public virtual UserModel User { get; set; }
     }
 }
