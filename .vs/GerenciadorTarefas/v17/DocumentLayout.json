@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\core\\GerenciadorTarefas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wesley\\AppData\\Local\\Temp\\aniktnfe..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\model\\tarefadelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\model\\tarefadelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wesley\\AppData\\Local\\Temp\\aniktnfe..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.repository\\repositories\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,7 +115,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -145,20 +145,20 @@
               "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Model\\TarefaDelModel.cs",
               "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\TarefaDelModel.cs",
               "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Model\\TarefaDelModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T16:36:55.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TarefaController.cs",
               "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Controllers\\TarefaController.cs",
               "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Controllers\\TarefaController.cs",
               "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Controllers\\TarefaController.cs",
               "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Controllers\\TarefaController.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAEwFoAAAA+AAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAEwGIAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T12:29:33.014Z",
               "EditorCaption": ""
@@ -204,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SQLQuery1.sql ",
               "DocumentMoniker": "C:\\Users\\Wesley\\AppData\\Local\\Temp\\aniktnfe..sql",
               "RelativeDocumentMoniker": "..\\..\\Users\\Wesley\\AppData\\Local\\Temp\\aniktnfe..sql",
