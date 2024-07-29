@@ -1,14 +1,17 @@
 ﻿using AutoMapper;
 using GerenciadorTarefas.Domain.Entity;
-using GerenciadorTarefas.Domain.Identity;
 using GerenciadorTarefas.Repository.Interfaces;
+using GerenciadorTarefas.Repository.Repositories;
+using GerenciadorTarefas.WebAPI.Extensions;
 using GerenciadorTarefas.WebAPI.Model;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace GerenciadorTarefas.WebAPI.Controllers
 {
+    [Authorize]
+    [ApiController]
     [Route("api/[controller]")]
     public class TarefaController : ControllerBase
     {
@@ -26,11 +29,9 @@ namespace GerenciadorTarefas.WebAPI.Controllers
         {
             try
             {
-                var tarefas = await _repo.GetAllAsync<Tarefa>();
+                 var retorno = _repo.GetByIdAndUserId(User.GetUserId()).ToList();
+                return Ok(retorno);
 
-                var results = _mapper.Map<TarefaModel[]>(tarefas);
-
-                return Ok(results);
             }
             catch (System.Exception ex)
             {
@@ -40,14 +41,13 @@ namespace GerenciadorTarefas.WebAPI.Controllers
 
         // POST api/<controller>
         [HttpPost("Adicionar")]
-        [AllowAnonymous]
-        public async Task<IActionResult> Adicionar([FromBody] TarefaModel model)
+        public async Task<IActionResult> Adicionar([FromBody] TarefaAddModel model)
         {
             try
             {
-                var emprestimo = _mapper.Map<Tarefa>(model);
-
-                _repo.Add(model);
+                var tarefa = _mapper.Map<Tarefa>(model);
+                tarefa.UserId = User.GetUserId();
+                _repo.Add(tarefa);
 
                 if (await _repo.SaveChangesAsync())
                 {
@@ -63,25 +63,51 @@ namespace GerenciadorTarefas.WebAPI.Controllers
 
         }
 
-        [HttpPut("Editar")]
-        [AllowAnonymous]
-        public async Task<IActionResult> Editar([FromBody] TarefaModel tarefaModel)
+        [HttpPut("Editar")] 
+        public async Task<IActionResult> Editar([FromBody] TarefaAlterarModel tarefaModel)
         {
             try
             {
-                var tarefa = await _repo.GetById<Tarefa>(tarefaModel.Id);
+                if (!_repo.PermissaoUsuario(User.GetUserId()))
+                    return BadRequest("Usuário não tem permissão para alterar!");
 
-                var model = _mapper.Map<Tarefa>(tarefaModel);
-
+                var tarefa = await _repo.GetById<Tarefa>(tarefaModel.TarefaId);
+                _mapper.Map(tarefaModel, tarefa);
                 _repo.Update(tarefa);
 
+                if (await _repo.SaveChangesAsync())
+                {
+                    return Ok();
+                }
+                return null;
             }
             catch (System.Exception ex)
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco Dados Falhou {ex.Message}");
             }
+        }
 
-            return Ok();
+        [HttpDelete("Delete")]
+        public async Task<IActionResult> Delete([FromBody] int tarefaId)
+        {
+            try
+            {
+                if (!_repo.PermissaoUsuario(User.GetUserId()))
+                    return BadRequest("Usuário não tem permissão para deletar!");
+
+
+                var tarefa = await _repo.GetById<Tarefa>(tarefaId); 
+                _repo.Delete(tarefa);
+                if (await _repo.SaveChangesAsync())
+                   return Ok();
+
+                return null;
+
+            }
+            catch (System.Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }

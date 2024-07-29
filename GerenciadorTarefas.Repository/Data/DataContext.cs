@@ -43,12 +43,13 @@ namespace GerenciadorTarefas.Repository.Data
             {
                 userRole.HasKey(em => new { em.TarefaId });
 
-                userRole.HasOne(ur => ur.User)
-                    .WithMany(r => r.Tarefas)
-                    .HasForeignKey(ur => ur.Id)
-                    .IsRequired();
+                //userRole.HasOne(ur => ur.User)
+                //    .WithMany(r => r.Tarefas)
+                //    .HasForeignKey(ur => ur.Id)
+                //    .IsRequired();
             }
              );
+             
 
 
             modelBuilder.Seed();

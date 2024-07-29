@@ -10,9 +10,8 @@ namespace GerenciadorTarefas.Domain.Identity
 {
     public class User : IdentityUser<int>
     {
-        public string UserName { get; set; }
-        public string FullName { get; set; } 
-        public List<UserRole> UserRoles { get; set; }
-        public virtual List<Tarefa> Tarefas { get; set; }
+        public int Id { get; set; }
+        public string PrimeiroNome { get; set; }
+        public IEnumerable<UserRole> UserRoles { get; set; }
     }
 }

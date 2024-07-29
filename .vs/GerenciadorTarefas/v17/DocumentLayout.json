@@ -3,28 +3,43 @@
   "WorkspaceRootPath": "C:\\core\\GerenciadorTarefas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wesley\\AppData\\Local\\Temp\\aniktnfe..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.repository\\repositories\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|solutionrelative:gerenciadortarefas.repository\\repositories\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\model\\tarefadelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\model\\tarefadelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.repository\\repositories\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|solutionrelative:gerenciadortarefas.repository\\repositories\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\profiles\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\profiles\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|solutionrelative:gerenciadortarefas.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.repository\\interfaces\\itarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|solutionrelative:gerenciadortarefas.repository\\interfaces\\itarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|solutionrelative:gerenciadortarefas.repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.repository\\data\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|solutionrelative:gerenciadortarefas.repository\\data\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729140825_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GerenciadorTarefas.Repository\\Migrations\\20240729140825_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,78 +50,62 @@
       "RelativeMoniker": "D:0:0:{385D442F-C512-46D8-8A98-82B6466BB066}|GerenciadorTarefas.Domain\\GerenciadorTarefas.Domain.csproj|solutionrelative:gerenciadortarefas.domain\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\model\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\model\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\extensions\\userextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\extensions\\userextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/master/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729121147_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GerenciadorTarefas.Repository\\Migrations\\20240729121147_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727040954_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GerenciadorTarefas.Repository\\Migrations\\20240727040954_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727042103_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GerenciadorTarefas.Repository\\Migrations\\20240727042103_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{385D442F-C512-46D8-8A98-82B6466BB066}|GerenciadorTarefas.Domain\\GerenciadorTarefas.Domain.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.domain\\identity\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{385D442F-C512-46D8-8A98-82B6466BB066}|GerenciadorTarefas.Domain\\GerenciadorTarefas.Domain.csproj|solutionrelative:gerenciadortarefas.domain\\identity\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|solutionrelative:gerenciadortarefas.repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|solutionrelative:gerenciadortarefas.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.repository\\data\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|solutionrelative:gerenciadortarefas.repository\\data\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729055426_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GerenciadorTarefas.Repository\\Migrations\\20240729055426_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.repository\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|solutionrelative:gerenciadortarefas.repository\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\profiles\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\profiles\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727001635_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GerenciadorTarefas.Repository\\Migrations\\20240727001635_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729042548_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GerenciadorTarefas.Repository\\Migrations\\20240729042548_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\statusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\statusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729024613_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GerenciadorTarefas.Repository\\Migrations\\20240729024613_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727001344_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GerenciadorTarefas.Repository\\Migrations\\20240727001344_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}|GerenciadorTarefas.Repository\\GerenciadorTarefas.Repository.csproj|solutionrelative:gerenciadortarefas.repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wesley\\AppData\\Local\\Temp\\eklzzd2q..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\extensions\\enumtypesdocumentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\extensions\\enumtypesdocumentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727000707_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GerenciadorTarefas.Repository\\Migrations\\20240727000707_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\extensions\\enumschemafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\extensions\\enumschemafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727000304_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GerenciadorTarefas.Repository\\Migrations\\20240727000304_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{385D442F-C512-46D8-8A98-82B6466BB066}|GerenciadorTarefas.Domain\\GerenciadorTarefas.Domain.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.domain\\entity\\usertarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{385D442F-C512-46D8-8A98-82B6466BB066}|GerenciadorTarefas.Domain\\GerenciadorTarefas.Domain.csproj|solutionrelative:gerenciadortarefas.domain\\entity\\usertarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{385D442F-C512-46D8-8A98-82B6466BB066}|GerenciadorTarefas.Domain\\GerenciadorTarefas.Domain.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.domain\\entity\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{385D442F-C512-46D8-8A98-82B6466BB066}|GerenciadorTarefas.Domain\\GerenciadorTarefas.Domain.csproj|solutionrelative:gerenciadortarefas.domain\\entity\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wesley\\AppData\\Local\\Temp\\aniktnfe..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|c:\\core\\gerenciadortarefas\\gerenciadortarefas.webapi\\model\\tarefamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}|GerenciadorTarefas.WebAPI\\GerenciadorTarefas.WebAPI.csproj|solutionrelative:gerenciadortarefas.webapi\\model\\tarefamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wesley\\AppData\\Local\\Temp\\aniktnfe..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -116,7 +115,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -140,224 +139,222 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TarefaDelModel.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\TarefaDelModel.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Model\\TarefaDelModel.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\TarefaDelModel.cs",
+              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Model\\TarefaDelModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:36:55.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "TarefaController.cs",
               "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Controllers\\TarefaController.cs",
               "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Controllers\\TarefaController.cs",
               "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Controllers\\TarefaController.cs",
               "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Controllers\\TarefaController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwB0AAAAAAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAEwFoAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T12:29:33.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "GerenciadorTarefas.Repository\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T03:21:30.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "GerenciadorTarefas.Repository\\Interfaces\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T03:56:16.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T20:30:55.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Program.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Program.cs",
-              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T20:51:26.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TarefaRepository.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Repositories\\TarefaRepository.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Repositories\\TarefaRepository.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Repositories\\TarefaRepository.cs",
-              "RelativeToolTip": "GerenciadorTarefas.Repository\\Repositories\\TarefaRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAsAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T12:32:13.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20240727042103_InitialCreate.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727042103_InitialCreate.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Migrations\\20240727042103_InitialCreate.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727042103_InitialCreate.cs",
-              "RelativeToolTip": "GerenciadorTarefas.Repository\\Migrations\\20240727042103_InitialCreate.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T04:21:03.838Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ITarefaRepository.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Interfaces\\ITarefaRepository.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Interfaces\\ITarefaRepository.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Interfaces\\ITarefaRepository.cs",
-              "RelativeToolTip": "GerenciadorTarefas.Repository\\Interfaces\\ITarefaRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T12:32:56.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20240727040954_InitialCreate.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727040954_InitialCreate.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Migrations\\20240727040954_InitialCreate.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727040954_InitialCreate.cs",
-              "RelativeToolTip": "GerenciadorTarefas.Repository\\Migrations\\20240727040954_InitialCreate.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T04:09:54.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Domain\\Identity\\User.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.Domain\\Identity\\User.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Domain\\Identity\\User.cs",
-              "RelativeToolTip": "GerenciadorTarefas.Domain\\Identity\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T20:39:38.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Controllers\\UserController.cs",
               "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAYwFEAAAA4AAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAADgvy0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T20:30:51.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserLoginModel.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\UserLoginModel.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Model\\UserLoginModel.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\UserLoginModel.cs",
-              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Model\\UserLoginModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "TarefaRepository.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Repositories\\TarefaRepository.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Repositories\\TarefaRepository.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Repositories\\TarefaRepository.cs",
+              "RelativeToolTip": "GerenciadorTarefas.Repository\\Repositories\\TarefaRepository.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAA8wDUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T03:50:45.21Z"
+              "WhenOpened": "2024-07-29T12:45:35.002Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "dbo.AspNetUsers [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/master/True/SqlTable/dbo.AspNetUsers.sql",
-              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "GerenciadorTarefas.Repository\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T02:28:18.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\Wesley\\AppData\\Local\\Temp\\aniktnfe..sql",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Wesley\\AppData\\Local\\Temp\\aniktnfe..sql",
+              "ToolTip": "SQLQuery1.sql *",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-07-27T04:44:19.047Z"
+              "WhenOpened": "2024-07-28T04:49:10.387Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Domain\\Identity\\UserRole.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.Domain\\Identity\\UserRole.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Domain\\Identity\\UserRole.cs",
-              "RelativeToolTip": "GerenciadorTarefas.Domain\\Identity\\UserRole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T02:48:00.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Repository.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Repository.cs",
-              "RelativeToolTip": "GerenciadorTarefas.Repository\\Repository.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAiwCcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T03:59:30.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Repositories\\UserRepository.cs",
               "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "GerenciadorTarefas.Repository\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAwH0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T03:24:16.219Z"
+              "WhenOpened": "2024-07-28T18:55:44.357Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 5,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Profiles\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Profiles\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Profiles\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Profiles\\AutoMapperProfiles.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T14:41:41.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITarefaRepository.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Interfaces\\ITarefaRepository.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Interfaces\\ITarefaRepository.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Interfaces\\ITarefaRepository.cs",
+              "RelativeToolTip": "GerenciadorTarefas.Repository\\Interfaces\\ITarefaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T23:23:09.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ModelBuilderExtensions.cs",
               "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Data\\ModelBuilderExtensions.cs",
               "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Data\\ModelBuilderExtensions.cs",
               "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Data\\ModelBuilderExtensions.cs",
               "RelativeToolTip": "GerenciadorTarefas.Repository\\Data\\ModelBuilderExtensions.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwDgAAAAoAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAACMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T20:52:41.127Z"
+              "WhenOpened": "2024-07-29T02:17:06.829Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "StatusEnum.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\StatusEnum.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\StatusEnum.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\StatusEnum.cs",
-              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\StatusEnum.cs",
+              "DocumentIndex": 9,
+              "Title": "20240729140825_InitialCreate.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729140825_InitialCreate.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Migrations\\20240729140825_InitialCreate.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729140825_InitialCreate.cs",
+              "RelativeToolTip": "GerenciadorTarefas.Repository\\Migrations\\20240729140825_InitialCreate.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T14:08:25.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\Usuario.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Model\\Usuario.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\Usuario.cs",
+              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Model\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T06:00:55.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Domain\\Identity\\User.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.Domain\\Identity\\User.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Domain\\Identity\\User.cs",
+              "RelativeToolTip": "GerenciadorTarefas.Domain\\Identity\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T14:07:39.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserExtensions.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Extensions\\UserExtensions.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Extensions\\UserExtensions.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Extensions\\UserExtensions.cs",
+              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Extensions\\UserExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T18:31:52.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\UserModel.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Model\\UserModel.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\UserModel.cs",
+              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Model\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T06:00:21.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240729121147_InitialCreate.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729121147_InitialCreate.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Migrations\\20240729121147_InitialCreate.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729121147_InitialCreate.cs",
+              "RelativeToolTip": "GerenciadorTarefas.Repository\\Migrations\\20240729121147_InitialCreate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T00:15:14.763Z"
+              "WhenOpened": "2024-07-29T12:11:48.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240729055426_InitialCreate.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729055426_InitialCreate.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Migrations\\20240729055426_InitialCreate.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729055426_InitialCreate.cs",
+              "RelativeToolTip": "GerenciadorTarefas.Repository\\Migrations\\20240729055426_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T05:54:26.817Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -367,103 +364,101 @@
               "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Data\\DataContext.cs",
               "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Data\\DataContext.cs",
               "RelativeToolTip": "GerenciadorTarefas.Repository\\Data\\DataContext.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwDcAAAAJAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T20:33:32.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20240727001635_InitialCreate.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727001635_InitialCreate.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Migrations\\20240727001635_InitialCreate.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727001635_InitialCreate.cs",
-              "RelativeToolTip": "GerenciadorTarefas.Repository\\Migrations\\20240727001635_InitialCreate.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T00:16:36.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20240727001344_InitialCreate.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727001344_InitialCreate.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Migrations\\20240727001344_InitialCreate.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727001344_InitialCreate.cs",
-              "RelativeToolTip": "GerenciadorTarefas.Repository\\Migrations\\20240727001344_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T00:13:45.187Z"
+              "WhenOpened": "2024-07-28T19:44:10.026Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "AutoMapperProfiles.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Profiles\\AutoMapperProfiles.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Profiles\\AutoMapperProfiles.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Profiles\\AutoMapperProfiles.cs",
-              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Profiles\\AutoMapperProfiles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAkwBkAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Program.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Program.cs",
+              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAEwCgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T22:29:19.084Z"
+              "WhenOpened": "2024-07-28T02:31:37.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Repository.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Repository.cs",
+              "RelativeToolTip": "GerenciadorTarefas.Repository\\Repository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T23:14:58.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240729042548_InitialCreate.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729042548_InitialCreate.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Migrations\\20240729042548_InitialCreate.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729042548_InitialCreate.cs",
+              "RelativeToolTip": "GerenciadorTarefas.Repository\\Migrations\\20240729042548_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T04:25:49.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240729024613_InitialCreate.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729024613_InitialCreate.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Migrations\\20240729024613_InitialCreate.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240729024613_InitialCreate.cs",
+              "RelativeToolTip": "GerenciadorTarefas.Repository\\Migrations\\20240729024613_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T02:46:13.451Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "SQLQuery1.sql ",
-              "DocumentMoniker": "C:\\Users\\Wesley\\AppData\\Local\\Temp\\eklzzd2q..sql",
-              "RelativeDocumentMoniker": "..\\..\\Users\\Wesley\\AppData\\Local\\Temp\\eklzzd2q..sql",
-              "ToolTip": "SQLQuery1.sql ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-07-27T00:09:38.042Z"
+              "Title": "EnumTypesDocumentFilter.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Extensions\\EnumTypesDocumentFilter.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Extensions\\EnumTypesDocumentFilter.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Extensions\\EnumTypesDocumentFilter.cs",
+              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Extensions\\EnumTypesDocumentFilter.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswBAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T00:38:22.748Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "20240727000707_InitialCreate.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727000707_InitialCreate.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Migrations\\20240727000707_InitialCreate.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727000707_InitialCreate.cs",
-              "RelativeToolTip": "GerenciadorTarefas.Repository\\Migrations\\20240727000707_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "EnumSchemaFilter.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Extensions\\EnumSchemaFilter.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Extensions\\EnumSchemaFilter.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Extensions\\EnumSchemaFilter.cs",
+              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Extensions\\EnumSchemaFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T00:07:07.333Z"
+              "WhenOpened": "2024-07-29T00:24:49.77Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "20240727000304_InitialCreate.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727000304_InitialCreate.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.Repository\\Migrations\\20240727000304_InitialCreate.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Repository\\Migrations\\20240727000304_InitialCreate.cs",
-              "RelativeToolTip": "GerenciadorTarefas.Repository\\Migrations\\20240727000304_InitialCreate.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Title": "UserTarefa.cs",
+              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Domain\\Entity\\UserTarefa.cs",
+              "RelativeDocumentMoniker": "GerenciadorTarefas.Domain\\Entity\\UserTarefa.cs",
+              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Domain\\Entity\\UserTarefa.cs",
+              "RelativeToolTip": "GerenciadorTarefas.Domain\\Entity\\UserTarefa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T00:03:04.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Tarefa.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Domain\\Entity\\Tarefa.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.Domain\\Entity\\Tarefa.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.Domain\\Entity\\Tarefa.cs",
-              "RelativeToolTip": "GerenciadorTarefas.Domain\\Entity\\Tarefa.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAApwAoAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T20:35:51.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "TarefaModel.cs",
-              "DocumentMoniker": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\TarefaModel.cs",
-              "RelativeDocumentMoniker": "GerenciadorTarefas.WebAPI\\Model\\TarefaModel.cs",
-              "ToolTip": "C:\\core\\GerenciadorTarefas\\GerenciadorTarefas.WebAPI\\Model\\TarefaModel.cs",
-              "RelativeToolTip": "GerenciadorTarefas.WebAPI\\Model\\TarefaModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T22:31:22.119Z"
+              "WhenOpened": "2024-07-28T20:00:44.099Z",
+              "EditorCaption": ""
             }
           ]
         }

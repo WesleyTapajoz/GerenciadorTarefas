@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GerenciadorTarefas.Repository.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240727043841_InitialCreate")]
+    [Migration("20240729141338_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -40,9 +40,6 @@ namespace GerenciadorTarefas.Repository.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
@@ -50,9 +47,12 @@ namespace GerenciadorTarefas.Repository.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("TarefaId");
 
-                    b.HasIndex("Id");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Tarefa");
 
@@ -60,11 +60,38 @@ namespace GerenciadorTarefas.Repository.Migrations
                         new
                         {
                             TarefaId = 1,
-                            Data = new DateTime(2024, 7, 27, 0, 38, 41, 512, DateTimeKind.Local).AddTicks(9255),
+                            Data = new DateTime(2024, 7, 29, 10, 13, 38, 119, DateTimeKind.Local).AddTicks(9449),
                             Descricao = "Desenvolver gerenciador de tarefa - para provider-it",
-                            Id = 1,
                             Status = 1,
-                            Titulo = "Desenvolver gerenciador de tarefa"
+                            Titulo = "Desenvolver gerenciador de tarefa",
+                            UserId = 1
+                        },
+                        new
+                        {
+                            TarefaId = 2,
+                            Data = new DateTime(2024, 7, 29, 10, 13, 38, 119, DateTimeKind.Local).AddTicks(9476),
+                            Descricao = "Desenvolver gerenciador de tarefa - para provider-it",
+                            Status = 0,
+                            Titulo = "Desenvolver gerenciador de tarefa",
+                            UserId = 1
+                        },
+                        new
+                        {
+                            TarefaId = 3,
+                            Data = new DateTime(2024, 7, 29, 10, 13, 38, 119, DateTimeKind.Local).AddTicks(9490),
+                            Descricao = "Desenvolver gerenciador de tarefa - para provider-it",
+                            Status = 0,
+                            Titulo = "Desenvolver gerenciador de tarefa",
+                            UserId = 2
+                        },
+                        new
+                        {
+                            TarefaId = 4,
+                            Data = new DateTime(2024, 7, 29, 10, 13, 38, 119, DateTimeKind.Local).AddTicks(9582),
+                            Descricao = "Desenvolver gerenciador de tarefa - para provider-it",
+                            Status = 0,
+                            Titulo = "Desenvolver gerenciador de tarefa",
+                            UserId = 2
                         });
                 });
 
@@ -96,6 +123,22 @@ namespace GerenciadorTarefas.Repository.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ConcurrencyStamp = "57f630b8-5e1d-45d2-a9ff-019623931c9f",
+                            Name = "ADMINISTRATOR",
+                            NormalizedName = "ADMINISTRATOR"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ConcurrencyStamp = "410f997c-8d49-4b41-91c3-92d4a02fbe94",
+                            Name = "USER",
+                            NormalizedName = "USER"
+                        });
                 });
 
             modelBuilder.Entity("GerenciadorTarefas.Domain.Identity.User", b =>
@@ -120,10 +163,6 @@ namespace GerenciadorTarefas.Repository.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
-                    b.Property<string>("FullName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
@@ -147,6 +186,10 @@ namespace GerenciadorTarefas.Repository.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("PrimeiroNome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
@@ -154,7 +197,6 @@ namespace GerenciadorTarefas.Repository.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("UserName")
-                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
@@ -175,53 +217,29 @@ namespace GerenciadorTarefas.Repository.Migrations
                         {
                             Id = 1,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a9ca84dc-458c-48a6-a55d-1ae196cb5ef9",
-                            Email = "shakespeare@outlook.com",
+                            ConcurrencyStamp = "aa0280f6-fa16-462d-b598-9409099145c0",
                             EmailConfirmed = false,
-                            FullName = "shakespeare",
                             LockoutEnabled = false,
+                            NormalizedUserName = "WESLEY",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIZPHiApY/Sayp5F3XK0VQUfYPZxTeQNj1Behq/xreBvWMyjj9bQUFGi8bwAXyN3XQ==",
                             PhoneNumberConfirmed = false,
-                            TwoFactorEnabled = false,
-                            UserName = "Shakespeare"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "12c485ad-c135-4831-bcce-76a0bd601ccf",
-                            Email = "machadosssis@outlook.com",
-                            EmailConfirmed = false,
-                            FullName = "Machado de Assis",
-                            LockoutEnabled = false,
-                            PhoneNumberConfirmed = false,
-                            TwoFactorEnabled = false,
-                            UserName = "machadoassis"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "fd35bab2-b475-43ac-b4eb-5f120754e314",
-                            Email = "wesley@outlook.com",
-                            EmailConfirmed = false,
-                            FullName = "Wesley Tapajoz",
-                            LockoutEnabled = false,
-                            PhoneNumberConfirmed = false,
+                            PrimeiroNome = "Wesley",
                             TwoFactorEnabled = false,
                             UserName = "wesley"
                         },
                         new
                         {
-                            Id = 4,
+                            Id = 2,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "634dceb3-ba21-439f-92d0-bce466ce1626",
-                            Email = "douglas@outlook.com",
+                            ConcurrencyStamp = "b31d007c-58ae-48eb-9236-1788275dfa70",
                             EmailConfirmed = false,
-                            FullName = "Wesley Douglas",
                             LockoutEnabled = false,
+                            NormalizedUserName = "TAPAJOZ",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIZPHiApY/Sayp5F3XK0VQUfYPZxTeQNj1Behq/xreBvWMyjj9bQUFGi8bwAXyN3XQ==",
                             PhoneNumberConfirmed = false,
+                            PrimeiroNome = "TAPAJOZ",
                             TwoFactorEnabled = false,
-                            UserName = "douglas"
+                            UserName = "tapajoz"
                         });
                 });
 
@@ -238,6 +256,23 @@ namespace GerenciadorTarefas.Repository.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = 1,
+                            RoleId = 1
+                        },
+                        new
+                        {
+                            UserId = 1,
+                            RoleId = 2
+                        },
+                        new
+                        {
+                            UserId = 2,
+                            RoleId = 2
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -331,8 +366,8 @@ namespace GerenciadorTarefas.Repository.Migrations
             modelBuilder.Entity("GerenciadorTarefas.Domain.Entity.Tarefa", b =>
                 {
                     b.HasOne("GerenciadorTarefas.Domain.Identity.User", "User")
-                        .WithMany("Tarefas")
-                        .HasForeignKey("Id")
+                        .WithMany()
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -401,8 +436,6 @@ namespace GerenciadorTarefas.Repository.Migrations
 
             modelBuilder.Entity("GerenciadorTarefas.Domain.Identity.User", b =>
                 {
-                    b.Navigation("Tarefas");
-
                     b.Navigation("UserRoles");
                 });
 #pragma warning restore 612, 618

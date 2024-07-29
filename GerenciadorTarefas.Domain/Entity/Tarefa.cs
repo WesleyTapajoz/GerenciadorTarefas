@@ -16,8 +16,7 @@ namespace GerenciadorTarefas.Domain.Entity
         public string Descricao { get; set; }
         public DateTime Data { get; set; }
         public int Status { get; set; }
-        public int Id { get; set; }
+        public int UserId { get; set; }
         public User User { get; set; }
-
     }
 }

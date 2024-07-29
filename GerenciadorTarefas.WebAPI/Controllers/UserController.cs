@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using GerenciadorTarefas.Domain.Entity;
 using GerenciadorTarefas.Domain.Identity;
 using GerenciadorTarefas.Repository.Interfaces;
 using GerenciadorTarefas.WebAPI.Model;
@@ -13,54 +14,56 @@ using System.Text;
 
 namespace GerenciadorTarefas.WebAPI.Controllers
 {
-
+    [ApiController]
     [Route("api/[controller]")]
-    public class UserController : Controller
+    public class UserController : ControllerBase
     {
         private readonly IConfiguration _config;
+        private readonly IUserRepository _userRepository;
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
         private readonly IMapper _mapper;
         private readonly IRepository _repo;
 
         public UserController(IConfiguration config,
+                              IUserRepository userRepository,
                               UserManager<User> userManager,
                               SignInManager<User> signInManager,
                               IMapper mapper,
                               IRepository repo)
         {
+            _userManager = userManager;
             _signInManager = signInManager;
             _mapper = mapper;
             _config = config;
-            _userManager = userManager;
+            _userRepository = userRepository;
             _repo = repo;
         }
-
 
         [HttpPost("Login")]
         [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] UserLoginModel userLogin)
         {
             try
-            {
-                var user = await _userManager.FindByNameAsync(userLogin.UserName);
-                if (user == null)
-                    return Unauthorized();
+            { 
+                var user = _mapper.Map<User>(userLogin);
 
+                var ret = await _userRepository.GetUserByUserNameAsync(user.UserName);
+                if (ret == null) return Unauthorized("Usuário ou Senha está errado");
 
-                var result = await _signInManager.CheckPasswordSignInAsync(user, userLogin.Password, false);
+                var result = await _userRepository.CheckUserPasswordAsync(user, userLogin.Password);
 
                 if (result.Succeeded)
                 {
-                    var appUser = await _userManager.Users
-                        .FirstOrDefaultAsync(u => u.NormalizedUserName == userLogin.UserName.ToUpper());
+                    //var appUser = await _userManager.Users.FirstOrDefaultAsync(u => u.NormalizedUserName == userLogin.UserName.ToUpper());
 
-                    var userToReturn = _mapper.Map<UserLoginModel>(appUser);
+                    //var userToReturn = _mapper.Map<UserLoginModel>(appUser);
 
                     return Ok(new
                     {
-                        token = GenerateJWToken(appUser).Result,
-                        user = userToReturn
+                        userName = ret.UserName,
+                        primeiroNome = ret.PrimeiroNome,
+                        token = _userRepository.CreateToken(ret).Result,
                     });
                 }
 
@@ -88,6 +91,33 @@ namespace GerenciadorTarefas.WebAPI.Controllers
             }
         }
 
+        [HttpPost("Register")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Register(UserAdd userModel)
+        {
+            try
+            {
+                if (await _userRepository.UserExists(userModel.UserName))
+                    return BadRequest("Usuário já existe");
+
+                var user = _mapper.Map<User>(userModel);
+
+                var result = await _userRepository.CreateAccountAsync(user, userModel.Role.ToString());
+                if (result != null)
+                    return Ok(new
+                    {
+                        userName = result.UserName,token = _userRepository.CreateToken(user).Result
+                    });
+
+                return BadRequest("Usuário não criado, tente novamente mais tarde!");
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError,
+                    $"Erro ao tentar Registrar Usuário. Erro: {ex.Message}");
+            }
+        }
+
         private async Task<string> GenerateJWToken(User user)
         {
             var claims = new List<Claim>
@@ -103,10 +133,9 @@ namespace GerenciadorTarefas.WebAPI.Controllers
                 claims.Add(new Claim(ClaimTypes.Role, role));
             }
 
-            var key = new SymmetricSecurityKey(Encoding.ASCII
-                .GetBytes(_config.GetSection("AppSettings:Token").Value));
+            var key = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_config.GetSection("AppSettings:Token").Value));
 
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {
@@ -128,8 +157,6 @@ namespace GerenciadorTarefas.WebAPI.Controllers
             {
                 return $"Banco Dados Falhou {ex.Message}";
             }
-
-            //return tokenHandler.WriteToken(token);
         }
     }
 }

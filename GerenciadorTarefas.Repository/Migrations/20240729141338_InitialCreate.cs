@@ -34,8 +34,8 @@ namespace GerenciadorTarefas.Repository.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false),
-                    FullName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PrimeiroNome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedEmail = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -171,34 +171,57 @@ namespace GerenciadorTarefas.Repository.Migrations
                     Descricao = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Data = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false),
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    UserId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Tarefa", x => x.TarefaId);
                     table.ForeignKey(
-                        name: "FK_Tarefa_AspNetUsers_Id",
-                        column: x => x.Id,
+                        name: "FK_Tarefa_AspNetUsers_UserId",
+                        column: x => x.UserId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.InsertData(
-                table: "AspNetUsers",
-                columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FullName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
+                table: "AspNetRoles",
+                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { 1, 0, "a9ca84dc-458c-48a6-a55d-1ae196cb5ef9", "shakespeare@outlook.com", false, "shakespeare", false, null, null, null, null, null, false, null, false, "Shakespeare" },
-                    { 2, 0, "12c485ad-c135-4831-bcce-76a0bd601ccf", "machadosssis@outlook.com", false, "Machado de Assis", false, null, null, null, null, null, false, null, false, "machadoassis" },
-                    { 3, 0, "fd35bab2-b475-43ac-b4eb-5f120754e314", "wesley@outlook.com", false, "Wesley Tapajoz", false, null, null, null, null, null, false, null, false, "wesley" },
-                    { 4, 0, "634dceb3-ba21-439f-92d0-bce466ce1626", "douglas@outlook.com", false, "Wesley Douglas", false, null, null, null, null, null, false, null, false, "douglas" }
+                    { 1, "57f630b8-5e1d-45d2-a9ff-019623931c9f", "ADMINISTRATOR", "ADMINISTRATOR" },
+                    { 2, "410f997c-8d49-4b41-91c3-92d4a02fbe94", "USER", "USER" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUsers",
+                columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "PrimeiroNome", "SecurityStamp", "TwoFactorEnabled", "UserName" },
+                values: new object[,]
+                {
+                    { 1, 0, "aa0280f6-fa16-462d-b598-9409099145c0", null, false, false, null, null, "WESLEY", "AQAAAAIAAYagAAAAEIZPHiApY/Sayp5F3XK0VQUfYPZxTeQNj1Behq/xreBvWMyjj9bQUFGi8bwAXyN3XQ==", null, false, "Wesley", null, false, "wesley" },
+                    { 2, 0, "b31d007c-58ae-48eb-9236-1788275dfa70", null, false, false, null, null, "TAPAJOZ", "AQAAAAIAAYagAAAAEIZPHiApY/Sayp5F3XK0VQUfYPZxTeQNj1Behq/xreBvWMyjj9bQUFGi8bwAXyN3XQ==", null, false, "TAPAJOZ", null, false, "tapajoz" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUserRoles",
+                columns: new[] { "RoleId", "UserId" },
+                values: new object[,]
+                {
+                    { 1, 1 },
+                    { 2, 1 },
+                    { 2, 2 }
                 });
 
             migrationBuilder.InsertData(
                 table: "Tarefa",
-                columns: new[] { "TarefaId", "Data", "Descricao", "Id", "Status", "Titulo" },
-                values: new object[] { 1, new DateTime(2024, 7, 27, 0, 38, 41, 512, DateTimeKind.Local).AddTicks(9255), "Desenvolver gerenciador de tarefa - para provider-it", 1, 1, "Desenvolver gerenciador de tarefa" });
+                columns: new[] { "TarefaId", "Data", "Descricao", "Status", "Titulo", "UserId" },
+                values: new object[,]
+                {
+                    { 1, new DateTime(2024, 7, 29, 10, 13, 38, 119, DateTimeKind.Local).AddTicks(9449), "Desenvolver gerenciador de tarefa - para provider-it", 1, "Desenvolver gerenciador de tarefa", 1 },
+                    { 2, new DateTime(2024, 7, 29, 10, 13, 38, 119, DateTimeKind.Local).AddTicks(9476), "Desenvolver gerenciador de tarefa - para provider-it", 0, "Desenvolver gerenciador de tarefa", 1 },
+                    { 3, new DateTime(2024, 7, 29, 10, 13, 38, 119, DateTimeKind.Local).AddTicks(9490), "Desenvolver gerenciador de tarefa - para provider-it", 0, "Desenvolver gerenciador de tarefa", 2 },
+                    { 4, new DateTime(2024, 7, 29, 10, 13, 38, 119, DateTimeKind.Local).AddTicks(9582), "Desenvolver gerenciador de tarefa - para provider-it", 0, "Desenvolver gerenciador de tarefa", 2 }
+                });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -240,9 +263,9 @@ namespace GerenciadorTarefas.Repository.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Tarefa_Id",
+                name: "IX_Tarefa_UserId",
                 table: "Tarefa",
-                column: "Id");
+                column: "UserId");
         }
 
         /// <inheritdoc />
