@@ -30,12 +30,12 @@ EntityFrameworkCore ^8<br>
 AutoMapper ^12<br>
 Swashbuckle.AspNetCore ^6<br>
 Microsoft.AspNetCore.Identity ^8<br>
-EntityFramework Core ^8</p>
-AutoMapper ^12</p>
-JWT ^8</p>
-Swagger</p>
-X-UNIT</p>
-Docker</p>
+EntityFramework Core ^8<br>
+AutoMapper ^12<br>
+JWT ^8<br>
+Swagger<br>
+X-UNIT<br>
+Docker<br>
 <h1 id="banco-de-dados">Banco de dados</h1>
 <p>SQL SERVER</p>
 <h1 id="linguagem">Linguagem</h1>
