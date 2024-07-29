@@ -11,6 +11,8 @@ namespace GerenciadorTarefas.WebAPI.Profiles
         {
             CreateMap<User, UserModel>()
                 .ReverseMap();
+
+
             CreateMap<User, UserLoginModel>()
                   .ForMember(dest => dest.Id, opt =>
                   {

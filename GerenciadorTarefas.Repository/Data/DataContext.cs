@@ -3,6 +3,11 @@ using GerenciadorTarefas.Domain.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace GerenciadorTarefas.Repository.Data
 {
@@ -38,8 +43,18 @@ namespace GerenciadorTarefas.Repository.Data
             {
                 userRole.HasKey(em => new { em.TarefaId });
 
-            });
+                //userRole.HasOne(ur => ur.User)
+                //    .WithMany(r => r.Tarefas)
+                //    .HasForeignKey(ur => ur.Id)
+                //    .IsRequired();
+            }
+             );
+             
+
+
             modelBuilder.Seed();
+
         }
+
     }
 }

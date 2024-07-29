@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  gerenciadortarefas.webapi:
+    image: ${DOCKER_REGISTRY-}gerenciadortarefaswebapi
+    container_name: gerenciador-tarefas-api
+    build:
+      context: .
+      dockerfile: GerenciadorTarefas.WebAPI/Dockerfile
+    depends_on:
+      - gerenciadortarefas.sqlserver
+
+  gerenciadortarefas.sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: local-mssql

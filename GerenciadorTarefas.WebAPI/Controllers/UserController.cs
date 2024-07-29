@@ -14,6 +14,7 @@ using System.Text;
 
 namespace GerenciadorTarefas.WebAPI.Controllers
 {
+    [AllowAnonymous]
     [ApiController]
     [Route("api/[controller]")]
     public class UserController : ControllerBase
@@ -45,7 +46,7 @@ namespace GerenciadorTarefas.WebAPI.Controllers
         public async Task<IActionResult> Login([FromBody] UserLoginModel userLogin)
         {
             try
-            {
+            { 
                 var user = _mapper.Map<User>(userLogin);
 
                 var ret = await _userRepository.GetUserByUserNameAsync(user.UserName);
@@ -55,6 +56,10 @@ namespace GerenciadorTarefas.WebAPI.Controllers
 
                 if (result.Succeeded)
                 {
+                    //var appUser = await _userManager.Users.FirstOrDefaultAsync(u => u.NormalizedUserName == userLogin.UserName.ToUpper());
+
+                    //var userToReturn = _mapper.Map<UserLoginModel>(appUser);
+
                     return Ok(new
                     {
                         userName = ret.UserName,
@@ -72,6 +77,7 @@ namespace GerenciadorTarefas.WebAPI.Controllers
         }
 
         [HttpGet("GetAllUser")]
+        [AllowAnonymous]
         public async Task<IActionResult> Get()
         {
             try
@@ -101,8 +107,7 @@ namespace GerenciadorTarefas.WebAPI.Controllers
                 if (result != null)
                     return Ok(new
                     {
-                        userName = result.UserName,
-                        token = _userRepository.CreateToken(user).Result
+                        userName = result.UserName,token = _userRepository.CreateToken(user).Result
                     });
 
                 return BadRequest("Usuário não criado, tente novamente mais tarde!");

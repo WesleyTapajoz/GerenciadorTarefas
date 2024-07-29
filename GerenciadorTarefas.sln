@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorTarefas.WebAPI", "GerenciadorTarefas.WebAPI\GerenciadorTarefas.WebAPI.csproj", "{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GerenciadorTarefas.WebAPI", "GerenciadorTarefas.WebAPI\GerenciadorTarefas.WebAPI.csproj", "{07EE9C28-5121-4A04-A1ED-AD72999B9F0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorTarefas.Domain", "GerenciadorTarefas.Domain\GerenciadorTarefas.Domain.csproj", "{385D442F-C512-46D8-8A98-82B6466BB066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GerenciadorTarefas.Domain", "GerenciadorTarefas.Domain\GerenciadorTarefas.Domain.csproj", "{385D442F-C512-46D8-8A98-82B6466BB066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorTarefas.Repository", "GerenciadorTarefas.Repository\GerenciadorTarefas.Repository.csproj", "{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GerenciadorTarefas.Repository", "GerenciadorTarefas.Repository\GerenciadorTarefas.Repository.csproj", "{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GerenciadorTarefas.Tests", "Test\GerenciadorTarefas.Tests\GerenciadorTarefas.Tests.csproj", "{834908E2-84F6-46AD-AD81-4C2B383401A6}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8BE74808-0A3A-4EDE-B1DD-5CA887278BE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2419FA75-9E93-4663-BFC8-3D925E0F2D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834908E2-84F6-46AD-AD81-4C2B383401A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834908E2-84F6-46AD-AD81-4C2B383401A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834908E2-84F6-46AD-AD81-4C2B383401A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834908E2-84F6-46AD-AD81-4C2B383401A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE74808-0A3A-4EDE-B1DD-5CA887278BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE74808-0A3A-4EDE-B1DD-5CA887278BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE74808-0A3A-4EDE-B1DD-5CA887278BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE74808-0A3A-4EDE-B1DD-5CA887278BE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

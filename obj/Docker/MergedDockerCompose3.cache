@@ -1,0 +1,110 @@
+name: dockercompose16030901129997939221
+services:
+  gerenciadortarefas.sqlserver:
+    container_name: local-mssql
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: P@ssw0rd
+    expose:
+      - "1433"
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      gerenciador-tarefas-network: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "5433"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: mssql-data
+        target: /var/opt/mssql
+        volume: {}
+  gerenciadortarefas.webapi:
+    build:
+      context: C:\projeto
+      dockerfile: GerenciadorTarefas.WebAPI/Dockerfile
+      args:
+        BUILD_CONFIGURATION: Release
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: GerenciadorTarefas.WebAPI
+    container_name: gerenciador-tarefas-api
+    depends_on:
+      gerenciadortarefas.sqlserver:
+        condition: service_started
+        required: true
+    entrypoint:
+      - dotnet
+      - --roll-forward
+      - Major
+      - /VSTools/DistrolessHelper/DistrolessHelper.dll
+      - --wait
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://0.0.0.0:80
+      DefaultConnection: Server=localhost,5433;Database=TarefaDb;User Id=sa;Password=P@ssw0rd
+    image: gerenciadortarefaswebapi
+    labels:
+      com.microsoft.visual-studio.project-name: GerenciadorTarefas.WebAPI
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages  "/app/GerenciadorTarefas.WebAPI.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      gerenciador-tarefas-network: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5010"
+        protocol: tcp
+    tty: true
+    volumes:
+      - type: bind
+        source: C:\Users\Marcio Queiroz\AppData\Roaming\Microsoft\UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Marcio Queiroz\AppData\Roaming\ASP.NET\Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Marcio Queiroz\vsdbg\vs2017u5
+        target: /remote_debugger
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Marcio Queiroz\AppData\Roaming\ASP.NET\Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Marcio Queiroz\AppData\Roaming\Microsoft\UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net8.0
+        target: /VSTools
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\HotReload
+        target: /HotReloadAgent
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  gerenciador-tarefas-network:
+    name: dockercompose16030901129997939221_gerenciador-tarefas-network
+    driver: bridge
+volumes:
+  mssql-data:
+    name: dockercompose16030901129997939221_mssql-data

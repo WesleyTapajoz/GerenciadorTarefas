@@ -38,7 +38,8 @@ namespace GerenciadorTarefas.WebAPI.Controllers
                 return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco Dados Falhou {ex.Message}");
             }
         }
-         
+
+        // POST api/<controller>
         [HttpPost("Adicionar")]
         public async Task<IActionResult> Adicionar([FromBody] TarefaAddModel model)
         {
@@ -87,7 +88,7 @@ namespace GerenciadorTarefas.WebAPI.Controllers
         }
 
         [HttpDelete("Delete")]
-        public async Task<IActionResult> Delete([FromBody] TarefaDelModel model)
+        public async Task<IActionResult> Delete([FromBody] int tarefaId)
         {
             try
             {
@@ -95,12 +96,13 @@ namespace GerenciadorTarefas.WebAPI.Controllers
                     return BadRequest("Usuário não tem permissão para deletar!");
 
 
-                var tarefa = await _repo.GetById<Tarefa>(model.TarefaId); 
+                var tarefa = await _repo.GetById<Tarefa>(tarefaId); 
                 _repo.Delete(tarefa);
                 if (await _repo.SaveChangesAsync())
                    return Ok();
 
                 return null;
+
             }
             catch (System.Exception ex)
             {

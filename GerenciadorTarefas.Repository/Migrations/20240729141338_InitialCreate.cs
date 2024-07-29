@@ -198,7 +198,7 @@ namespace GerenciadorTarefas.Repository.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "PrimeiroNome", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { 1, 0, "aa0280f6-fa16-462d-b598-9409099145c0", null, false, false, null, null, "WESLEY", "AQAAAAIAAYagAAAAEIZPHiApY/Sayp5F3XK0VQUfYPZxTeQNj1Behq/xreBvWMyjj9bQUFGi8bwAXyN3XQ==", null, false, "Wesley", null, false, "wesley" },
+                    { 1, 0, "aa0280f6-fa16-462d-b598-9409099145c0", null, false, false, null, null, "WESLEY", "AQAAAAIAAYagAAAAEIrpjTOImqGu0XsbYB0XIUqn4OVOUPDx7PMkQ5wOBKs9l6MRYP2vLTb1vTJN3fFCJA==", null, false, "Wesley", null, false, "wesley" },
                     { 2, 0, "b31d007c-58ae-48eb-9236-1788275dfa70", null, false, false, null, null, "TAPAJOZ", "AQAAAAIAAYagAAAAEIZPHiApY/Sayp5F3XK0VQUfYPZxTeQNj1Behq/xreBvWMyjj9bQUFGi8bwAXyN3XQ==", null, false, "TAPAJOZ", null, false, "tapajoz" }
                 });
 

@@ -4,6 +4,7 @@ using GerenciadorTarefas.Repository;
 using GerenciadorTarefas.Repository.Data;
 using GerenciadorTarefas.Repository.Interfaces;
 using GerenciadorTarefas.Repository.Repositories;
+using GerenciadorTarefas.WebAPI.Extensions;
 using GerenciadorTarefas.WebAPI.Profiles;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Http.Json;
@@ -11,12 +12,14 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore; 
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Reflection;
 using System.Text;
 using System.Text.Json.Serialization;
 var builder = WebApplication.CreateBuilder(args);
 
 
 // Add services to the container.
+
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
@@ -118,8 +121,10 @@ builder.Services.AddSwaggerGen(options =>
 
 var app = builder.Build();
 
+
 app.UseSwagger();
 app.UseSwaggerUI();
+
 
 app.UseRouting();
 app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());

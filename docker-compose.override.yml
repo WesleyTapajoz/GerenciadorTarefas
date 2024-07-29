@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  gerenciadortarefas.webapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://0.0.0.0:80
+      - DefaultConnection=Server=localhost,5433;Database=TarefaDb;User Id=sa;Password=P@ssw0rd
+    ports:
+      - "5010:80"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+    networks:
+      - gerenciador-tarefas-network 
+
+  gerenciadortarefas.sqlserver:
+    environment:
+      ACCEPT_EULA: 'Y'
+      SA_PASSWORD: "P@ssw0rd"
+    volumes:
+      - mssql-data:/var/opt/mssql
+    ports:
+      - '5433:1433'    
+    expose:
+      - 1433
+    networks:
+      - gerenciador-tarefas-network
+
+networks:
+  gerenciador-tarefas-network:
+    driver: bridge    
+
+volumes:
+  mssql-data:
