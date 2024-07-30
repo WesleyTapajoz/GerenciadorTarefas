@@ -24,7 +24,12 @@ Certifique-se de ter o Docker instalado em sua máquina.
 Construa e inicie os containers executando o comando: 
 docker-compose up --build
 Acesse a API em http://localhost:5010/swagger 
-e o banco de dados SQL Server estará disponível para conexão no endereço localhost,5433
+O banco de dados SQL Server estará disponível para conexão no endereço localhost,1433
+Para gerar o token com o usuário:
+{
+  "userName": "wesley",
+  "password": "Teste@123"
+}
 <h1 id="framework-e-banco-de-dados">Framework</h1>
 EntityFrameworkCore ^8<br>
 AutoMapper ^12<br>
