@@ -14,22 +14,22 @@ e ter um status (Pendente, Em Progresso, Concluído).</p>
 3- Start seu projeto, setando o seguinte projeto<strong> GerenciadorTarefas.WebAPI</strong> 
 ![Captura de tela 2024-07-29 190048](https://github.com/user-attachments/assets/7d6ffffd-86e5-4413-8302-98b2680d5c8e) 
 <h2 id="etapas-para-execucao-projeto-docker">Etapas para execução do projeto no Docker</h2>
-<strong>Orquestração com Docker</strong>
+<strong>Orquestração com Docker</strong>,</br>
 Este projeto utiliza Docker para orquestrar os containers da aplicação .NET Core Web API e do banco de dados SQL Server. 
-<strong>Estrutura dos Containers</strong>
-Aplicação .NET Core Web API: Este container executa a API desenvolvida em .NET Core. Ele é configurado para se comunicar com o banco de dados SQL Server.
-SQL Server: Este container fornece o banco de dados SQL Server para armazenar os dados da aplicação.
-Como Rodar
-Certifique-se de ter o Docker instalado em sua máquina.
-Construa e inicie os containers executando o comando: 
-docker-compose up --build
-Acesse a API em http://localhost:5010/swagger 
-O banco de dados SQL Server estará disponível para conexão no endereço localhost,1433
-Para gerar o token com o usuário:
-{
-  "userName": "wesley",
-  "password": "Teste@123"
-}
+<strong>Estrutura dos Containers</strong></br>
+Aplicação .NET Core Web API: Este container executa a API desenvolvida em .NET Core. Ele é configurado para se comunicar com o banco de dados SQL Server.</br>
+SQL Server: Este container fornece o banco de dados SQL Server para armazenar os dados da aplicação.</br>
+<strong>Como Rodar</strong></br>
+Certifique-se de ter o Docker instalado em sua máquina.</br>
+Construa e inicie os containers executando o comando: </br>
+docker-compose up --build</br>
+Acesse a API em http://localhost:5010/swagger </br>
+O banco de dados SQL Server estará disponível para conexão no endereço localhost,1433</br>
+Para gerar o token com o usuário:</br>
+{ 
+  "userName": "wesley", 
+  "password": "Teste@123" 
+} 
 <h1 id="framework-e-banco-de-dados">Framework</h1>
 EntityFrameworkCore ^8<br>
 AutoMapper ^12<br>
