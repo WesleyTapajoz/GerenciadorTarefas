@@ -1,30 +1,23 @@
 name: dockercompose10775467346959987823
 services:
   gerenciadortarefas.sqlserver:
-    container_name: local-mssql
+    build:
+      context: D:\git\A_temp\GerenciadorTarefa\sql
+      dockerfile: ./Dockerfile
+    container_name: gerenciador-tarefas-mssql
     environment:
       ACCEPT_EULA: "Y"
       SA_PASSWORD: P@ssw0rd
     expose:
     - "1433"
-    image: mcr.microsoft.com/mssql/server:2019-latest
+    image: gerenciador-tarefas-mssq:latest
     networks:
       gerenciador-tarefas-network: null
     ports:
     - mode: ingress
       target: 1433
-      published: "5433"
+      published: "1433"
       protocol: tcp
-    volumes:
-    - type: volume
-      source: mssql-data
-      target: /var/opt/mssql
-      volume: {}
-    - type: bind
-      source: D:\git\A_temp\GerenciadorTarefa\init.sql
-      target: /docker-entrypoint-initdb.d/init.sql
-      bind:
-        create_host_path: true
   gerenciadortarefas.webapi:
     build:
       context: D:\git\A_temp\GerenciadorTarefa
@@ -37,7 +30,8 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: http://0.0.0.0:80
-      DefaultConnection: Server=localhost,5433;Database=TarefaDb;User Id=sa;Password=P@ssw0rd
+      DefaultConnection: Data Source=host.docker.internal,1433;Database=TarefaDb;User
+        Id=sa;Password=P@ssw0rd;Trust Server Certificate=True
     image: gerenciadortarefaswebapi
     networks:
       gerenciador-tarefas-network: null
@@ -63,6 +57,3 @@ networks:
   gerenciador-tarefas-network:
     name: dockercompose10775467346959987823_gerenciador-tarefas-network
     driver: bridge
-volumes:
-  mssql-data:
-    name: dockercompose10775467346959987823_mssql-data

@@ -1,34 +1,33 @@
 name: dockercompose10775467346959987823
 services:
   gerenciadortarefas.sqlserver:
-    container_name: local-mssql
+    build:
+      context: D:\git\A_temp\GerenciadorTarefa\sql
+      dockerfile: ./Dockerfile
+    container_name: gerenciador-tarefas-mssql
     environment:
       ACCEPT_EULA: "Y"
       SA_PASSWORD: P@ssw0rd
     expose:
     - "1433"
-    image: mcr.microsoft.com/mssql/server:2019-latest
+    image: gerenciador-tarefas-mssq:latest
     networks:
       gerenciador-tarefas-network: null
     ports:
     - mode: ingress
       target: 1433
-      published: "5433"
+      published: "1433"
       protocol: tcp
-    volumes:
-    - type: volume
-      source: mssql-data
-      target: /var/opt/mssql
-      volume: {}
   gerenciadortarefas.webapi:
     build:
       context: D:\git\A_temp\GerenciadorTarefa
       dockerfile: GerenciadorTarefas.WebAPI/Dockerfile
       args:
-        BUILD_CONFIGURATION: Release
+        BUILD_CONFIGURATION: Debug
       labels:
         com.microsoft.created-by: visual-studio
         com.microsoft.visual-studio.project-name: GerenciadorTarefas.WebAPI
+      target: base
     container_name: gerenciador-tarefas-api
     depends_on:
       gerenciadortarefas.sqlserver:
@@ -42,12 +41,14 @@ services:
     - --wait
     environment:
       ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
       ASPNETCORE_URLS: http://0.0.0.0:80
-      DefaultConnection: Server=localhost,5433;Database=TarefaDb;User Id=sa;Password=P@ssw0rd
-    image: gerenciadortarefaswebapi
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      DefaultConnection: Server=localhost,1433;Database=TarefaDb;User Id=sa;Password=P@ssw0rd
+      NUGET_FALLBACK_PACKAGES: ""
+    image: gerenciadortarefaswebapi:dev
     labels:
-      com.microsoft.visual-studio.project-name: GerenciadorTarefas.WebAPI
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages  "/app/GerenciadorTarefas.WebAPI.dll"'
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages  "/app/bin/Debug/net8.0/GerenciadorTarefas.WebAPI.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: dotnet --roll-forward Major
         /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet
       com.microsoft.visualstudio.debuggee.program: dotnet
@@ -62,6 +63,12 @@ services:
     tty: true
     volumes:
     - type: bind
+      source: C:\Users\Marcio Queiroz\.nuget\packages
+      target: /.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
       source: C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\HotReload
       target: /HotReloadAgent
       read_only: true
@@ -71,6 +78,11 @@ services:
       source: C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net8.0
       target: /VSTools
       read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\git\A_temp\GerenciadorTarefa\GerenciadorTarefas.WebAPI
+      target: /app
       bind:
         create_host_path: true
     - type: bind
@@ -102,10 +114,12 @@ services:
       read_only: true
       bind:
         create_host_path: true
+    - type: bind
+      source: D:\git\A_temp\GerenciadorTarefa
+      target: /src
+      bind:
+        create_host_path: true
 networks:
   gerenciador-tarefas-network:
     name: dockercompose10775467346959987823_gerenciador-tarefas-network
     driver: bridge
-volumes:
-  mssql-data:
-    name: dockercompose10775467346959987823_mssql-data

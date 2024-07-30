@@ -5,7 +5,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://0.0.0.0:80
-      - DefaultConnection=Server=localhost,5433;Database=TarefaDb;User Id=sa;Password=P@ssw0rd
+      - DefaultConnection=Data Source=host.docker.internal,1433;Database=TarefaDb;User Id=sa;Password=P@ssw0rd;Trust Server Certificate=True
     ports:
       - "5010:80"
     volumes:
@@ -18,10 +18,8 @@ services:
     environment:
       ACCEPT_EULA: 'Y'
       SA_PASSWORD: "P@ssw0rd"
-    volumes:
-      - mssql-data:/var/opt/mssql
     ports:
-      - '5433:1433'    
+      - '1433:1433'    
     expose:
       - 1433
     networks:
@@ -29,7 +27,4 @@ services:
 
 networks:
   gerenciador-tarefas-network:
-    driver: bridge    
-
-volumes:
-  mssql-data:
+    driver: bridge

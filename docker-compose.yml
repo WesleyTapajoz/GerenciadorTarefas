@@ -11,5 +11,8 @@ services:
       - gerenciadortarefas.sqlserver
 
   gerenciadortarefas.sqlserver:
-    image: mcr.microsoft.com/mssql/server:2019-latest
-    container_name: local-mssql
+    image: gerenciador-tarefas-mssq:latest
+    container_name: gerenciador-tarefas-mssql
+    build: 
+      context: ./sql
+      dockerfile: ./Dockerfile

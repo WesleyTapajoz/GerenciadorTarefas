@@ -1,13 +1,16 @@
 name: dockercompose10775467346959987823
 services:
   gerenciadortarefas.sqlserver:
+    build:
+      context: D:\git\A_temp\GerenciadorTarefa\sql
+      dockerfile: ./Dockerfile
     container_name: local-mssql
     environment:
       ACCEPT_EULA: "Y"
       SA_PASSWORD: P@ssw0rd
     expose:
     - "1433"
-    image: mcr.microsoft.com/mssql/server:2019-latest
+    image: gerenciador-tarefas-mssq:latest
     networks:
       gerenciador-tarefas-network: null
     ports:
