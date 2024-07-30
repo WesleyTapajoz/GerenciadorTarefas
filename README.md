@@ -1,5 +1,5 @@
 
-<h1 id="bem-vindo-ao-sistema-de-gerenciamento-tarefas">Bem Vindo ao Sistema de Gerenciamento de Tarefas!</h1>
+<h1 id="bem-ao-sistema-de-gerenciamento-tarefas">Bem ao Sistema de Gerenciamento de Tarefas!</h1>
 <p>Você foi contratado para desenvolver um sistema de gerenciamento de tarefas para uma pequena empresa. A empresa precisa de um sistema onde os funcionários possam criar, 
 editar, deletar e visualizar tarefas. As tarefas devem ser atribuídas a usuários específicos 
 e ter um status (Pendente, Em Progresso, Concluído).</p>
@@ -24,7 +24,12 @@ Certifique-se de ter o Docker instalado em sua máquina.
 Construa e inicie os containers executando o comando: 
 docker-compose up --build
 Acesse a API em http://localhost:5010/swagger 
-e o banco de dados SQL Server estará disponível para conexão no endereço localhost,5433
+O banco de dados SQL Server estará disponível para conexão no endereço localhost,1433
+Para gerar o token com o usuário:
+{
+  "userName": "wesley",
+  "password": "Teste@123"
+}
 <h1 id="framework-e-banco-de-dados">Framework</h1>
 EntityFrameworkCore ^8<br>
 AutoMapper ^12<br>
@@ -44,4 +49,3 @@ Docker<br>
 <p>DDD</p>
 <h1 id="padrao">Padrão</h1>
 <p>Repository</p>
-
